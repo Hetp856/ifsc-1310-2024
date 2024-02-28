@@ -81,7 +81,7 @@ html {
       background-color:rgba(0,0,0,.4);
       padding:5px 10px;
       border-radius: 20px 40px;
-      border: 1px solid #c0c0c0;
+      border: 1px solid #110EF0;
       transition:.4s;
     }
     header.primary nav a:hover{
@@ -93,7 +93,7 @@ html {
       
       #content h2{
        color: #110EF0;
-       border-bottom:1px dotted #c0c0c0;
+       border-bottom:1px dotted #110EF0;
       }
       
       #content h3{
@@ -106,6 +106,9 @@ html {
         flex-direction:row;
         justify-content:space-around;
         gap:2rem;
+        border-bottom:1px dotted #110EF0;
+        padding: 2rem 0;
+        border-top:1px dotted #110EF0;
       }
 
       #blog .post{
@@ -124,13 +127,13 @@ html {
         text-transform:uppercase;
         font-size:.6rem;
         text-align:center;
-        color:#c0c0c0;
+        color:#110EF0;
       }
 
       #blog header{
         padding-top:10px;
         font-size:.6rem;
-        color:#c0c0c0;
+        color:#110EF0;
       }
 
       #blog header h2{
@@ -144,6 +147,42 @@ html {
       #blog .post:hover{
         box-shadow: 0 8px 16px rgba(0,0,0,.6);
       }
+
+      aside{
+        background-color: #ef8708;
+        color:#fff;
+        padding:1.25rem;
+      }
+
+      aside .container{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        gap:60px;
+      }
+
+      aside .container a{
+        display:block;
+        color:#fff;
+        text-align:right;
+        margin-top:1rem;
+      }
+
+      aside .container a:hover{
+        color:#110EF0;
+      }
+
+      aside .widget footer{
+        display:none;
+      }
+
+      #colophon{
+        background-color: #110EF0;
+       text-align:center;
+       padding:10px;
+       color:#ffffff;
+       font-size:1.1rem;
+     }
 
 
 
