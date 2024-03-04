@@ -24,6 +24,30 @@ html {
   margin:40px auto;
   }
 
+  .img-right{
+    float:right;
+    margin: 10px 0 10px 20px;
+    border:1px solid #f01601;
+    padding:5px;
+    border-radius:50px;
+  }
+  
+  .img-left{
+    float:left;
+    margin: 10px 20px 10px 0;
+    border:1px solid #f01601;
+    padding:5px;
+    border-radius:50px;
+  }
+  
+  .img-center{
+    display:block;
+    margin:20px auto;
+    border:1px solid #f01601;
+    padding:5px;
+    border-radius:50px;
+  }
+
   /*  --------------- Global Styles -----------------  */
   /*----#F01601(red) #F0E80B(yellow) #EF8708(orange) #110EF0(blue) #19F000(green)----*/
   body{
@@ -109,6 +133,13 @@ html {
         border-bottom:1px dotted #110EF0;
         padding: 2rem 0;
         border-top:1px dotted #110EF0;
+        flex-wrap: wrap;
+      }
+
+      #blog h2{
+        flex:0 0 100%;
+        margin:0;
+        text-align:center;
       }
 
       #blog .post{
@@ -117,6 +148,7 @@ html {
         border-radius:4px;
         font-size:.8rem;
         transition:.5s;
+        flex:1;
       }
 
       #blog figure{
@@ -148,7 +180,40 @@ html {
         box-shadow: 0 8px 16px rgba(0,0,0,.6);
       }
 
-      aside{
+      #practice h2{
+        color: #110EF0;
+        border-bottom: 1px solid #110EF0;
+      }
+      
+      table{  
+        border: 1px solid #f01601;
+        width: 100%;
+        margin:20px 0;
+        border-collapse:collapse;
+      }
+      caption{
+        font-weight:bold;
+        margin:10px;
+      }
+      
+      th{
+        background-color: #ef8708;
+        color:#ffffff;
+        padding:7.5px;
+      }
+      tr:nth-child(even){
+      background-color: rgba(0, 0, 0, 0.1);
+      }
+      
+      
+      
+      td{
+        border:1px solid #f01601;
+        padding:5px;
+      }
+      
+      
+      aside[role="complementary"]{
         background-color: #ef8708;
         color:#fff;
         padding:1.25rem;
@@ -177,7 +242,7 @@ html {
       }
 
       #colophon{
-        background-color: #110EF0;
+       background-color: #110EF0;
        text-align:center;
        padding:10px;
        color:#ffffff;
