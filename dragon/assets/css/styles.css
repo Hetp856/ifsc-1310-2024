@@ -6,12 +6,27 @@ html {
   *:after {
     box-sizing: inherit;
   }
-
+/* #210535
+#430d4b
+#7b337d
+#c874b2
+#f5d5e0 
+#000000
+#051427
+#530f1e
+#a44322
+#f8bc04
+#0b1f3a
+#76101e
+#133769
+#c9374c
+#c2dde4
+*/
 img{
   max-width:100%;
   }
 
-header.primary{
+body{
   background-image:url("../img/wp2284535.webp")
 }
 
@@ -25,7 +40,8 @@ body{
 h1{
   text-align:center;
   text-decoration:underline;
-  font-size:80px;
+  font-size:65px;
+  color:#f8bc04;
 }
 
 h2{
