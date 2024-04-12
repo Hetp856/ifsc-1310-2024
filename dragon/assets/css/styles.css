@@ -93,7 +93,7 @@ section.contain h3{
 
 section.contain{
   background-image:url("../img/04.jpg");
-  background-size:contain;
+  background-size:cover;
   background-repeat:no-repeat;
 }
 
@@ -241,6 +241,7 @@ table{
   background-image:url("../img/05.webp");
   background-size:cover;
   background-repeat: no-repeat;
+  transition:.7s;
 }
 
 th{
@@ -254,7 +255,6 @@ background-color: rgba(0, 0, 0, 0.1);
 
 tr:hover{
   background-color: rgba(0, 0, 0, 0.5);
-  transition: 0.5em;;
 }
 
 td:nth-child(n+2){
@@ -279,11 +279,11 @@ td{
   background-repeat: no-repeat;
 }
 
-footer.foot h6{
+h6{
   font-size:15px;
 }
 
-footer.foot h6 a{
+h6 a{
   text-decoration: none;
   color:#000;
 }
