@@ -150,7 +150,7 @@ aside article.widget {
 section.contain{
   background-image:url("../img/04.jpg");
   background-size:cover;
-  background-repeat:;
+  background-repeat:no-repeat;
   white-space:inherit;
   overflow:initial;
 }
@@ -180,12 +180,12 @@ nav.first ul li{
 }
 
 nav a{
-  color:#fff;
+  color:#f5d5e0;
   text-decoration:none;
   background-color:rgba(0,0,0,.7);
   padding:9px;
   border-radius: 20px 40px;
-  border: 2px groove #110EF0;
+  border: 2px groove #c874b2;
   transition:.7s;
   font-size:20px;
 }
@@ -211,12 +211,12 @@ header.first ul li{
 }
 
 header.first nav a{
-  color:#fff;
+  color:#f5d5e0;
   text-decoration:none;
   background-color:rgba(0,0,0,.7);
   padding:9px;
   border-radius: 20px 40px;
-  border: 2px groove #110EF0;
+  border: 2px groove #c874b2;
   transition:.7s;
   font-size:20px;
 }
@@ -242,12 +242,12 @@ header.primary ul li{
 }
 
 header.primary nav a{
-  color:#fff;
+  color:#f5d5e0;
   text-decoration:none;
   background-color:rgba(0,0,0,.7);
   padding:9px;
   border-radius: 20px 40px;
-  border: 2px groove #110EF0;
+  border: 2px groove #c874b2;
   transition:.7s;
   font-size:20px;
 }
@@ -273,12 +273,12 @@ header.primary ul li{
 }
 
 header.primary nav a{
-  color:#fff;
+  color:#f5d5e0;
   text-decoration:none;
   background-color:rgba(0,0,0,.7);
   padding:9px;
   border-radius: 20px 40px;
-  border: 2px groove #110EF0;
+  border: 2px groove #c874b2;
   transition:.7s;
   font-size:20px;
 }
@@ -292,9 +292,7 @@ header.primary nav a:hover{
   flex-direction:row;
   justify-content:space-around;
   gap:2rem;
-  border-bottom:1px dotted #c874b2;
   padding: 2rem 0;
-  border-top:1px dotted #c874b2;
   flex-wrap: wrap;
 }
 
@@ -328,7 +326,7 @@ header.primary nav a:hover{
 #blog header{
   padding-top:10px;
   font-size:1rem;
-  color:#110EF0;
+  color:#c874b2;
 }
 
 #blog header h2{
@@ -336,14 +334,14 @@ header.primary nav a:hover{
 }
 
 #blog .post:hover{
-  box-shadow: 0 8px 16px rgba(0,0,0,.9);
+  box-shadow: 0 8px 16px rgba(0,0,0,5);
 }
 
 caption.table one{
   font-size:20px;
 }
 table.one{
-  border: 1px solid #f01601;
+  border: 1px solid #c874b2;
   width: 100%;
   margin:20px 0;
   border-collapse:collapse;
@@ -356,7 +354,7 @@ table.one{
 
 table.one th{
   background-color: #ef8708;
-  color:#ffffff;
+  color:#f5d5e0;
   padding:7.5px;
 }
 table.one tr:nth-child(even){
@@ -372,7 +370,7 @@ table.one td:nth-child(n+2){
 }
 
 table.one td{
-  border:1px solid #f01601;
+  border:1px solid #c874b2;
   padding:5px;
   color:#fff;
 }
