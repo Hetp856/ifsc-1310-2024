@@ -51,10 +51,10 @@ header.first{
 }
 
 section.id{
-  background-image:url("../img/02.webp");
+  background-image:url("../img/06.jpg");
   background-size:cover;
   background-position:center;
-  background-position-y:-4em;
+  background-position-y:-10em;
 }
 
 body{
@@ -111,7 +111,7 @@ section.contain h3{
 }
 aside[role="one"] {
   color: #f5d5e0;
-  padding: 2.5em;
+  padding: 1.2em;
 }
 
 aside .widget {
@@ -396,7 +396,6 @@ h6{
 }
 
 h6 a{
-  text-decoration: none;
   color:#000;
 }
 
