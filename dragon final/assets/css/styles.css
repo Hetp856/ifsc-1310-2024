@@ -119,15 +119,6 @@ img{
     width:600px;
   }
 
-  .img-right1{
-    float:right;
-    margin: 10px 10px 10px 20px;
-    padding:2px;
-    border-radius:40px;
-    height:400px;
-    width:600px;
-  }
-
 header.primary{
   background-image:url("../img/Dragon-Logo.png");
   background-size:contain;
@@ -145,10 +136,9 @@ header.first{
 }
 
 section.id{
-  background-image:url("../img/06.jpg");
+  background-image:url("../img/colorful_earth-wallpaper-2000x1333.jpg");
   background-size:cover;
   background-position:center;
-  background-position-y:-11em;
 }
 
 body{
@@ -171,6 +161,15 @@ h2{
   justify-content:space-around;
   padding:0.5px;
   color:#a44322;
+  font-size:30px;
+}
+
+h2.one{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  padding:0.1px;
+  color:#c2dde4;
   font-size:30px;
   
 }
@@ -249,10 +248,9 @@ section.contain{
   overflow:initial;
 }
 
-section.container{
-  background-image:url("../img/HD-wallpaper-space-dark-in-a-black-hole.jpg");
+section.container2{
+  background-image:url("../img/dark-blue-galaxy-in-space-iphone-77ulr6vs3pcq9y2z.jpg");
   background-size: contain;
-  backface-visibility:low;
 }
 
 p.first{
@@ -438,29 +436,45 @@ header.primary nav a:hover{
 }
 
 section.container1{
-  background-image:url(../img/05.webp);
+  background-image:url("../img/retro-space-jj42yccuy61apvei.jpg");
+  background-size: contain;
+}
+
+.container1 p{
+  color:#f5d5e0;
 }
 
 caption.table one{
   font-size:20px;
 }
+
+caption.table{
+  color:#a44322;
+  text-decoration:underline dotted;
+  font-size:20px;
+}
+
 table.one{
   border: 1px solid #c874b2;
   width: 100%;
   margin:20px 0;
   border-collapse:collapse;
-  background-color: #DFDBE5;
-  background-image:url("../img/05.webp");
+  background-image:url("../img/9124020.jpg");
   background-size:cover;
   background-repeat: no-repeat;
   transition:.7s;
 }
 
 table.one th{
-  background-color: #ef8708;
+  background-color: #210535;
   color:#f5d5e0;
   padding:7.5px;
 }
+
+table.one tr{
+  color:#f5d5e0;
+}
+
 table.one tr:nth-child(even){
 background-color: rgba(0, 0, 0, 0.1);
 }
@@ -479,11 +493,11 @@ table.one td{
   color:#fff;
 }
 
-.container li{
+.container2 li{
   color:#a44322;
 }
 
-.container p{
+.container2 p{
   color:#f5d5e0;
   text-shadow: #f5d5e0 1px 0 10px;
 }
@@ -491,22 +505,28 @@ table.one td{
 #colophon{
   text-align:center;
   padding:10px;
-  color:#000000;
+  color:#c2dde4;
   font-size:1.1rem;
   background-image:url("../img/SpaceX-Logo.png");
   background-size:contain;
   background-position-x:right;
   background-repeat: no-repeat;
+  
 }
 
 h6{
   font-size:15px;
-  color:#c154c1;
+  color:#c2dde4;
 }
 
 h6 a{
-  color:#c154c1;
+  color:#c2dde4;
   font-size:15px;
+  text-decoration: none;
+}
+
+h6 a:hover{
+  text-decoration:underline solid;
 }
 
 
