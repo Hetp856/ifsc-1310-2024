@@ -11,6 +11,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
       </head>
+      <button id="myButton">&#9664; Back</button>
+
+<style>
+  #myButton {
+    width: 60px;
+    height: 40px;
+    background-color: #0a0a23;
+    padding: 10px 5px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #FFFFFF;
+    text-align: left;
+    float: left;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+  }
+
+  #myButton:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+</style>
+
+<script>
+  document.getElementById("myButton").addEventListener("click", function() {
+    window.history.back();
+  });
+</script>
   <body class="form">
     <h1 class="form">Registration Form</h1>
     <p class="form">Please fill out this form with the required information</p>

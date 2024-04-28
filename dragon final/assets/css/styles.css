@@ -23,6 +23,10 @@ html {
 #c2dde4
 */
 
+html, body
+{
+    margin: 0px; padding: 0px
+}
 
 body.form {
   width: 100%;
@@ -139,6 +143,9 @@ section.id{
   background-image:url("../img/colorful_earth-wallpaper-2000x1333.jpg");
   background-size:cover;
   background-position:center;
+  padding-top:8px;
+  padding-left:5px;
+  padding-right:5px;
 }
 
 body{
@@ -246,11 +253,17 @@ section.contain{
   background-repeat:no-repeat;
   white-space:inherit;
   overflow:initial;
+  padding-top:8px;
+  padding-left:5px;
+  padding-right:5px;
 }
 
 section.container2{
   background-image:url("../img/dark-blue-galaxy-in-space-iphone-77ulr6vs3pcq9y2z.jpg");
   background-size: contain;
+  padding-top:8px;
+  padding-left:5px;
+  padding-right:5px;
 }
 
 p.first{
@@ -432,12 +445,16 @@ header.primary nav a:hover{
 }
 
 #blog .post:hover{
-  box-shadow: 0 8px 16px rgba(0,0,0,5);
+  box-shadow: 0 8px 16px #c2dde4;
 }
 
 section.container1{
   background-image:url("../img/retro-space-jj42yccuy61apvei.jpg");
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top:8px;
+  padding-left:5px;
+  padding-right:5px;
 }
 
 .container1 p{
@@ -449,9 +466,10 @@ caption.table one{
 }
 
 caption.table{
-  color:#a44322;
+  color:#c874b2;
   text-decoration:underline dotted;
-  font-size:20px;
+  font-size:30px;
+  padding-bottom:5px;
 }
 
 table.one{
@@ -459,10 +477,11 @@ table.one{
   width: 100%;
   margin:20px 0;
   border-collapse:collapse;
-  background-image:url("../img/9124020.jpg");
+  background-image:url("../img/Screenshot\ 2024-04-28\ 124454.png");
   background-size:cover;
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
   transition:.7s;
+  background-position-y: center;
 }
 
 table.one th{
@@ -471,8 +490,9 @@ table.one th{
   padding:7.5px;
 }
 
-table.one tr{
+table.one tr td{
   color:#f5d5e0;
+  background-blend-mode: overlay;  
 }
 
 table.one tr:nth-child(even){
@@ -495,6 +515,7 @@ table.one td{
 
 .container2 li{
   color:#a44322;
+  font-size:20px;
 }
 
 .container2 p{
