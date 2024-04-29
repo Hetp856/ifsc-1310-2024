@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>SpaceX Project Dragon</title>
+        <meta name="description" content="SpaceX Project Dragon">
+        <meta name="author" content="Het Patel">
+        <meta name="robots" content="noindex">
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+      </head>
+      <button id="myButton">&#9664; Back</button>
+
+<style>
+  #myButton {
+    width: 60px;
+    height: 40px;
+    background-color: #0a0a23;
+    padding: 10px 5px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #FFFFFF;
+    text-align: left;
+    float: left;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+  }
+
+  #myButton:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+</style>
+
+<script>
+  document.getElementById("myButton").addEventListener("click", function() {
+    window.history.back();
+  });
+</script>
+  <body class="form">
+    <h1 class="form">Registration Form</h1>
+    <p class="form">Please fill out this form with the required information</p>
+    <form method="post">
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business</label>
+      </fieldset>
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
+        <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
+        <label for="referrer">How did you hear about us?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">SpaceX News</option>
+            <option value="2">SpaceX YouTube Channel</option>
+            <option value="3">SpaceX Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio">Provide a bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like moonwalking..."></textarea>
+        </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.spacex.com/media/privacy_policy_spacex.pdf">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
