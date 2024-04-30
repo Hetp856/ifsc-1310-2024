@@ -1,3 +1,45 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
 body{
-    background-color:burlywood;
+    background-image:url("../img/884de81d29f37619ff17935475764213.jpg");
+    background-size:contain;
+    line-height:1.7;
+}
+
+h1{
+    font-size:50px;
+    text-align: center;
+
+}
+
+h2{
+    text-align: center;
+    border-bottom: dotted #f0f0f0 2px;
+    padding-top:5px;
+}
+
+.main{
+    width: 70vw;
+    max-width: 900px;
+    margin: 40px auto;
+    background: rgba(0, 0, 0, .5);
+    border: dashed 3px #f0f0f0;
+    padding: 35px;
+    color:#fff;
+}
+
+.main a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.main a:hover{
+    text-decoration:underline;
 }

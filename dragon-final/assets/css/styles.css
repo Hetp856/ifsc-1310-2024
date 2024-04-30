@@ -212,6 +212,7 @@ section.contain h3{
 aside.one {
   color: #f5d5e0;
   padding: 1.2em;
+  font-weight:bold;
 }
 
 aside .widget {
@@ -241,6 +242,7 @@ aside article.widget {
 .widget.over table td {
   border-bottom: 1px dashed #7b337d;
   padding: 10px;
+  font-size:12px;
 }
 
 .widget.over table td:nth-child(even) {
