@@ -7,8 +7,7 @@ body{
 .adaptive-height{
     max-width:800px;
     width:100vw;
-    margin:40px auto;
-    
+    margin:40px auto;   
 }
 .slick-autoplay-toggle-button,
 .slick-prev .slick-prev-icon, .slick-next .slick-next-icon,

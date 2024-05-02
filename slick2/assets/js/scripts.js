@@ -6,4 +6,5 @@ $(document).ready(function() {
         speed: 300,
         slidesToShow: 1,
         adaptiveHeight: true
+    });
       });
